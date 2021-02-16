@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint 'src/**/*.{ts,tsx}' gatsby-*.ts && tsc --noEmit",
-    "lint:fix": "eslint --fix 'src/**/*.{ts,tsx}' gatsby-*.ts && tsc --noEmit"
+    "lint:fix": "eslint --fix 'src/**/*.{ts,tsx}' gatsby-*.ts && tsc --noEmit",
+    "stylelint": "stylelint 'src/**/*.scss'",
+    "stylelint:fix": "stylelint --fix 'src/**/*.scss'"
   },
   "keywords": [],
   "author": "Shinya Ema <emashinya0612@gmail.com>",
