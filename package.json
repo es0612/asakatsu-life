@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "Shinya Ema <emashinya0612@gmail.com>",
   "license": "ISC",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  }
 }
