@@ -13,6 +13,15 @@
   "author": "Shinya Ema <emashinya0612@gmail.com>",
   "license": "ISC",
   "private": true,
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && tsc --noEmit"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "eslint --fix",
+    "*.scss": "stylelint --fix"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
@@ -22,6 +31,8 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^5.0.9",
+    "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "stylelint": "^13.10.0",
     "stylelint-config-prettier": "^8.0.2",
