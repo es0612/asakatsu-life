@@ -6,15 +6,15 @@ import { Layout } from '../components/layout';
 const Page: FC = () => (
   <Layout>
     <h1>Home</h1>
-    <br/>
+    <br />
     <Link to="/blog">Blog.</Link>
     <br />
     <Link to="/about">About me.</Link>
-    <br/>
+    <br />
     <Link to="/portfolio">Portfolio.</Link>
-    <br/>
+    <br />
     <Link to="/contact">Contact.</Link>
-    <br/>
+    <br />
   </Layout>
 );
 
