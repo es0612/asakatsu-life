@@ -50,6 +50,7 @@
     "gatsby": "^2.32.3",
     "gatsby-plugin-graphql-codegen": "^2.7.1",
     "gatsby-plugin-sass": "^3.2.0",
+    "gatsby-source-filesystem": "^2.11.0",
     "node-sass": "^5.0.0"
   }
 }
