@@ -1,7 +1,8 @@
 {
   "include": [
     "./src/**/*",
-    "./gatsby-*.ts"
+    "./gatsby-*.ts",
+    "./types/*"
   ],
   "compilerOptions": {
     "target": "es2019",
