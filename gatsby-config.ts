@@ -1,4 +1,5 @@
 import type { GatsbyConfig } from 'gatsby';
+import { resolve } from 'path';
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -15,7 +16,15 @@ const config: GatsbyConfig = {
         fileName: 'types/graphql-types.d.ts',
         documentPaths: ['src/**/*.{ts,tsx}', 'gatsby-*.ts']
       }
-    }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'articles',
+        path: resolve(__dirname, 'articles')
+      }
+    },
+    'gatsby-transformer-remark'
   ]
 };
 
