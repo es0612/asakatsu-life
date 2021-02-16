@@ -7,7 +7,8 @@
     "lint": "eslint 'src/**/*.{ts,tsx}' gatsby-*.ts && tsc --noEmit",
     "lint:fix": "eslint --fix 'src/**/*.{ts,tsx}' gatsby-*.ts && tsc --noEmit",
     "stylelint": "stylelint 'src/**/*.scss'",
-    "stylelint:fix": "stylelint --fix 'src/**/*.scss'"
+    "stylelint:fix": "stylelint --fix 'src/**/*.scss'",
+    "develop": "ts-node ./node_modules/.bin/gatsby develop"
   },
   "keywords": [],
   "author": "Shinya Ema <emashinya0612@gmail.com>",
@@ -44,5 +45,8 @@
     "stylelint-scss": "^3.19.0",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "gatsby": "^2.32.3"
   }
 }
