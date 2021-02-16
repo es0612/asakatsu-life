@@ -9,6 +9,7 @@ export const Header: FC = () => {
       site {
         siteMetadata {
           title
+          description
         }
       }
     }
@@ -19,6 +20,7 @@ export const Header: FC = () => {
       <h1>
         <Link to="/">{data.site?.siteMetadata?.title}</Link>
       </h1>
+      <h3>{data.site?.siteMetadata?.description}</h3>
     </header>
   );
 };

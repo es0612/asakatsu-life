@@ -4,8 +4,8 @@ import { resolve } from 'path';
 const config: GatsbyConfig = {
   siteMetadata: {
     title: 'Asakatsu Life',
-    author: 'Shinya',
-    description: 'new blog using GatsbyJS',
+    author: 'Shinya Ema',
+    description: '朝活エンジニアの生活',
     email: 'emashinya0612@gmail.com'
   },
   plugins: [
