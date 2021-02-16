@@ -20,10 +20,19 @@ export const Footer: FC = () => {
       <p>&copy; {data.site?.siteMetadata?.author}</p>
       <ul>
         <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/blog">Blog</Link>
+        </li>
+        <li>
           <Link to="/about">About</Link>
         </li>
         <li>
-          <a href={`mailto:${data.site?.siteMetadata?.email}`}>Contact</a>
+          <Link to="/portfolio">Portfolio</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </footer>

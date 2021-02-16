@@ -4,8 +4,9 @@ import { Layout } from '../components/layout';
 
 const Page: FC = () => (
   <Layout>
-    <h1>About me</h1>
+    <h1>Contact</h1>
     <p>作成中・・・</p>
+    {/* <a href={`mailto:${data.site?.siteMetadata?.email}`}>Mail</a> */}
   </Layout>
 );
 export default Page;
