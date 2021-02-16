@@ -1,6 +1,6 @@
 ---
-title: "おなかすいた"
-slug: /i-want-to-eat-jiro
+title: "２回目です"
+slug: /second-post
 date: 2020-12-09T12:00:00
 ---
 

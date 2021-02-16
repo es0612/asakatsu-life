@@ -6,4 +6,4 @@ node_modules/
 public/
 
 # gatsby-plugin-graphql-codegen
-types/graphql-types.d.ts
+# types/graphql-types.d.ts
