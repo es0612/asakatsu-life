@@ -1,0 +1,13 @@
+{
+  "name": "asakatsu-blog",
+  "version": "1.0.0",
+  "description": "Asakatsu Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Shinya Ema <emashinya0612@gmail.com>",
+  "license": "ISC",
+  "private": true
+}
